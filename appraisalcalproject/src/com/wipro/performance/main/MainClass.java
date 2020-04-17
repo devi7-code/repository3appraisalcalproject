@@ -21,7 +21,11 @@ public class MainClass {
 	Service obj1=new Service();	
 EmployeeBean ebean=new EmployeeBean();
 Scanner input =new Scanner(System.in);
+
 //getting all input values
+
+
+
 System.out.println("Enter the ADID:");
 ebean.ADID=input.nextLine();
 System.out.println("Enter the empName:");
@@ -37,7 +41,7 @@ System.out.println("Enter the totalAttendance:");
 ebean.totalAttendance=input.nextFloat();
 System.out.println("Enter the managerRating:");
 ebean.managerRating=input.nextFloat();
-	
+	// getting appraisal for all employees in try block
 		try {
 			System.out.println(obj1.getAppraisalDetails(ebean));
 		} catch (Exception e) {
