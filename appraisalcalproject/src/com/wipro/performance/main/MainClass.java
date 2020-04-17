@@ -37,7 +37,7 @@ System.out.println("Enter the totalAttendance:");
 ebean.totalAttendance=input.nextFloat();
 System.out.println("Enter the managerRating:");
 ebean.managerRating=input.nextFloat();
-	
+	// getting appraisal for all employees
 		try {
 			System.out.println(obj1.getAppraisalDetails(ebean));
 		} catch (Exception e) {
