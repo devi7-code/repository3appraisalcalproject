@@ -21,8 +21,7 @@ public class MainClass {
 	Service obj1=new Service();	
 EmployeeBean ebean=new EmployeeBean();
 Scanner input =new Scanner(System.in);
-//getting all input values
-int a=10;
+
 System.out.println("Enter the ADID:");
 ebean.ADID=input.nextLine();
 System.out.println("Enter the empName:");
